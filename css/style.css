@@ -223,12 +223,12 @@ margin-bottom: 10px;
 background-color: var(--bacground);
 }
 .sidebar {
-margin-top: 40px;
+margin-top: 20px;
 background-color: rgb(192, 144, 143);
 border-top-left-radius: 2000px;
 border-top-right-radius: 2000px;
 padding: 20px;
-width: 390px;
+width: 420px;
 height: 1600px;
 }
 .photo {
@@ -242,17 +242,20 @@ box-shadow: 0px 5.26027px 19.726px rgb(215, 202, 201, 0.8);
 margin-bottom: 50px;
 }
 .contacts {
-margin-left: 40px;
-margin-bottom: 45px;
+/* margin-left: 40px; */
+margin-bottom: 15px;
 }
 .contacts-list {
 padding: 0;
+margin-left: 20px;
+
 }
 .sidebar-item {
 list-style: none;
 margin: 0;
 padding: 0;
 margin-bottom: 7px;
+color: var(--bacground);
 }
 
 .mine-contacts:hover .contacts__svg,
@@ -300,8 +303,8 @@ color: var(--accent-color);
 
 
 .tech-skills {
-margin-left: 40px;
-margin-bottom: 45px;
+/* margin-left: 40px; */
+/* margin-bottom: 45px; */
 }
 .tech-skills-list {
 color: var(--bacground);
@@ -309,8 +312,8 @@ padding: 0;
 margin-left: 20px;
 }
 .soft-skills {
-margin-left: 40px;
-margin-bottom: 45px;
+/* margin-left: 40px; */
+/* margin-bottom: 45px; */
 }
 .soft-skills-list {
 color: var(--bacground);
@@ -333,7 +336,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 22px;
 line-height: 27px;
-margin-bottom: 20px;
+margin-bottom: 10px;
 }
 
 .education {
@@ -375,6 +378,35 @@ margin-bottom: 20px;
 
 .period-title {
   font-style: italic;
+}
+
+.skills-title{
+  margin-left: 40px;
+}
+
+.tech-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.column{
+  flex: 1;
+}
+
+.tech-container {
+  display: flex;
+  margin-bottom: 15px;
+}
+.column-left {
+  margin-left: 10px;
+}
+
+.tech-item {
+  margin-bottom: 7px;
+}
+
+.link-underline{
+  text-decoration: underline;
 }
 
 /* .link-gap{
